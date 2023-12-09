@@ -1,0 +1,40 @@
+{
+    "default_values": {
+        "voltage_range": "3.3-5V",
+        "current_max": "1A",
+        "operating_temperature_range": "-40 to 85 degrees Celsius",
+        "vibration_tolerance": "10G",
+        "speed_max": "1MHz",
+        "power_consumption_max": "1W",
+        "mtbf": "500000 hours",
+        "compliance_standards": ["RoHS", "CE"],
+        "budget_per_unit": "1"
+    },
+    "package_types": {
+        "DIP": {
+            "dimensions": "10mm x 10mm x 2mm",
+            "mounting_type": "through-hole"
+        },
+        "SMD": {
+            "dimensions": "variable",
+            "mounting_type": "surface-mount"
+        }
+    },
+    "symbol_defaults": {
+        "line_width": "0",
+        "fill": "N",
+        "pin_length": "150",
+        "pin_orientation": "D",
+        "pin_number_text_size": "50",
+        "pin_name_text_size": "50"
+    },
+    "footprint_defaults": {
+        "pad_shape": "rectangular",
+        "pad_size": "1.5mm x 1.5mm",
+        "pad_drill": "0.8mm"
+    },
+    "blueprint_parameters": {
+        "input_count": 2,
+        "output_count": 1
+    }
+}
